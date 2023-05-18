@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Header .topnav .search-container .absolute-numbe{
+    background-color: #DB4444;
+    color: white;
+}
+section .container{
+    margin: 80px auto 140px auto;
+}
+/* Links style start*/
+section .container .row-first-links{
+    margin-bottom: 5rem;
+}
+section .container .row-first-links a{
+    text-decoration: none;
+    color: var(--text2-color);
+    opacity: 0.5;
+    padding-right: 0.5rem;
+}
+/* links style end */
+
+/* Form Style Start */
+section .container .contant-check h1{
+    padding-bottom: 3rem;
+}
+.check-contant-all{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-self: center;
+    gap: 1rem;
+}
+.check-contant-all form div{
+    padding-bottom: 2rem;
+}
+section .container .contant-check .check-contant-all .left-sidecheck form div input[type=email]{
+    width:  470px;
+    height: 2.5rem;
+    background-color:#F5F5F5;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+section .container .contant-check .check-contant-all .left-sidecheck form div input[type=text]{
+    width:  470px;
+    height: 2.5rem;
+    background-color:#F5F5F5;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+}
+.check-contant-all form div input[type=checkbox]:checked{
+    background-color: #DB4444;
+}
+/* end form style */
+
+/* rihgt side in check out bage  style start*/
+section .container .check-contant-all .right-sidecheck div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+section .container .check-contant-all .right-sidecheck div p{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+section .container .check-contant-all .right-sidecheck div .small-img img{
+    width: 50px;
+    height: 39px;
+}
+section .container .check-contant-all .right-sidecheck div button{
+    padding: 16px 48px;
+    color: white;
+    background-color: var(--secondary2-color);
+}
+section .container .row-first-links a:hover{
+    color: var(--Hover-button);
+    opacity: 2;
+    font-size: large;
+    font-weight: bold;
+    transition: 2s;
+}

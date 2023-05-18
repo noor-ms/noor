@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.name, .email ,.password{
+    border-bottom: 1px solid #000000;
+}
+.sumbit1{
+    color: white;
+    background-color: #DB4444;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 190px;
+    gap: 10px;
+    border-color: #DB4444;
+    width: 300px;
+    height: 56px;
+}
+button{
+    color: white;
+    background: none;
+    border: 1px solid black;
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.log{
+    margin-top: 34px;
+    display: inline-flex;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items: center;
+    color: #333030;
+}
+.log p{
+    color: #333030;
+    font-size: 14px;
+}
+.log a{
+    color: #333030;
+    text-decoration: underline;
+}

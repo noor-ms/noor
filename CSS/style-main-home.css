@@ -1,0 +1,467 @@
+/* Main nav style start */
+header{
+    border-bottom: 1px solid black;
+}
+body{
+    overflow-x: hidden;
+}
+main .container{
+    margin: 0.5rem 3rem 1.8rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.main-left{
+    border-right: 1px solid var(--text2-color);
+    flex-basis: 20%;
+}
+.main-left ul li{
+    list-style: none;
+    padding-bottom: 1rem;
+}
+.main-left ul li a{
+    text-decoration: none;
+    color: var(--text2-color);
+}
+.main-left ul li a .span-main{
+    float: right;
+    padding-right: 20px;
+}
+.main-left ul li a:hover{
+    color: var(--Hover-button);
+    font-size: large;
+    transition: 1s;
+}
+.main-right{
+    flex-basis: 75%;
+    background-color: var(--text2-color);
+    display: flex;
+    flex-direction: column;
+}
+.contant-img{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: var(--text-color);
+}
+.mainContent-right{
+    padding: 1.9rem 2.1rem;
+    align-items: center;
+}
+.mainContent-right p{
+    font-size: 15px;
+}
+.mainContent-right .apple-size{
+    font-size: 24px;
+    padding-right:0.9rem;
+}
+.mainContent-right h1{
+    font-size: 44px;
+    padding: 2.3rem 0;
+}
+.mainContent-right a{
+    color: var(--text-color);
+}
+.end-main{
+    /* color: var(--primary-color); */
+    align-self: center;
+    padding-bottom: 0.7rem;
+}
+.end-main i{
+    font-size: 12px;
+    color: gray;
+}
+/* main nav style end */
+
+/* Flash sales style start */
+.Sales .container{
+    margin: 1.8rem 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.4rem;
+    border-bottom: 1px solid gray;
+}
+.first{
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.first p{
+    color: var(--secondary2-color);
+    padding-left: 0.7rem;
+    font-weight: bold;
+}
+.first .empty-div{
+    width: 0.8rem;
+    height: 1.5rem;
+    background-color: var(--secondary2-color);
+    border-radius: 0.1rem;
+}
+.seconed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-flow: row nowrap;
+}
+.seconed p{
+    color: black;
+}
+.seconed h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.seconed .seconed-days{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 0.8rem;
+}
+.seconed .arrow-sec{
+    align-items: center;
+}
+.seconed .arrow-sec button{
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.seconed .arrow-sec button i{
+    color: var(--text2-color);
+}
+.all-div{
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    gap: 1.3rem;
+}
+.third{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    gap: 0.9rem;
+}
+.third .card-div{
+    position: relative;
+    padding: 49px;
+    background-color: var(--secondary-color);
+    height: 250px;
+    width: 270px;
+    border-radius: 4px;
+}
+.third .obsolute-cardDiv{
+    position: absolute;
+    width: 55px;
+    height: 26px;
+    left: 12px;
+    top: 12px;
+    background: #DB4444;
+    border-radius: 4px;
+    text-align: center;
+}
+.third .obs-icon{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+.third .obs-icon i{
+    padding-top: 9px;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+}
+.card-div .obs-add-div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* padding: 10px 0; */
+    background-color: var(--text2-color);
+    color: var(--primary-color);
+}
+.card-div .hidden{
+    display: none;
+}
+.card-div:hover{
+    cursor: pointer;
+}
+.card-div:hover .hidden{
+    cursor: pointer;
+    display: block;
+}
+.pp{
+    text-align: center;
+    font-size: 14px;
+}
+.card-part2 h3,p, .stras-icon{
+    padding-top: 10px;
+}
+.card-part2 p{
+    color: var(--secondary2-color);
+    font-weight: bold;
+}
+.stras-icon{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+}
+.stras-icon p{
+    color: gray;
+}
+.span-card-p{
+    color: gray;
+    padding: 12px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.stras-icon i{
+    color:#FFAD33;
+}
+.Final{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+.btn-final{
+    background-color: var(--secondary2-color);
+    font-size: 14px;
+    padding: 16px 48px;
+    border-radius: 4px;
+}
+/* Flash sales style end */
+
+/* Categories style start */
+.all-cat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin-bottom: 4rem;
+}
+.cat-div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding-top: 40px;
+    border: 1px solid gray;
+    width: 170px;
+    height: 145px;
+}
+.cat-div:hover{
+    background-color: var(--secondary2-color);
+    color: var(--primary-color);
+    transition: 1s;
+}
+.cat-div i{
+    font-size: 2.5rem;
+}
+.cat-div p{
+    color: var(--text2-color);
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Sales categories Style end */
+
+/* Categories style start */
+.categories{
+    margin-bottom: 2.6rem;
+}
+.categories .container{
+    margin: 1.8rem 4.8rem;
+    background-color: var(--text2-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 69px 56px;
+}
+.categories .container .cat-right-Part{
+    flex-basis: 50%;
+}
+.cat-right-Part p, h1, .cat-Rightcycle, button{
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+.cat-right-Part p{
+    color: var(--button-color);
+}
+.cat-right-Part h1{
+    font-size: 48px;
+}
+.cat-right-Part .cat-Rightcycle{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-direction: row;
+}
+.cat-Rightcycle div{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    padding-top: 0.6rem;
+}
+.cat-Rightcycle div p{
+    color: var(--text2-color);
+}
+.other{
+    position: relative;
+}
+.cat-left-Part{
+    background-color: #D9D9D9;
+    border-radius: 40%;
+    filter: blur(90px);
+}
+.img-catleft{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    left: auto;
+}
+/* Categories style end */
+
+.obs-icon i:hover{
+    background-color: var(--secondary2-color);
+    color: var(--primary-color);
+    transition: 1.3s;
+}
+.Sales .container .all-div .third .card-div{
+    height: 250px;
+    width: 250px;
+}
+.Sales .container .all-div .third .card-part2 .stras-icon .prod-p{
+    color: var(--secondary2-color);
+}
+.cricle-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+.cricle-icon i{
+    font-size: 10px;
+}
+.cricle-icon-style{
+    border: 3px double black;
+    border-radius: 50%;
+}
+.cricle-icon .solid{
+    font-size: 14px;
+}
+
+/* Featured style start */
+.Featured .container{
+    margin: 1.8rem 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.4rem;
+    margin-bottom: 7.75rem;
+}
+
+.Arrival{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+}
+.Arrival .playstation{
+    float: left;
+    background-color: black;
+    background-image: url(../Images/ps5-slim-goedkope-playstation_large\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    border-radius: 4px; 
+    flex-basis: 50%;
+}
+.contant{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 32px;
+    color: var(--primary-color);
+    height: 82px;
+    width: 242px;
+    font-weight: bold;
+}
+.Featured .container .Arrival .playstation .contant h1, p, a{
+    padding-bottom: 16px;
+}
+.arrivalRight{
+    flex-basis: 50%;
+}
+.arrivalRight{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1.8rem;
+    padding-left: 1rem;
+}
+.arrivalRight .woman{
+    background-color: #0D0D0D;
+    border-radius: 4px;
+}
+.arrivalRight .woman .con-woman{
+    position: absolute;
+    color: var(--primary-color);
+    top: 9rem;
+    left: 3rem;
+}
+.arrivalRight .woman img{
+    float: right;
+}
+.end-both-arrivalRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    gap: 1rem;
+}
+.speak-Perfom{
+    background-color: #0D0D0D;
+    padding: 31px 53px;
+    border-radius: 4px;
+}
+.contant-Perfom{
+    position: absolute;
+    bottom: 2rem;
+    left: 21rem;
+    color: var(--primary-color);
+}
+/* Featured style end*/
+
+/* Last web style start */
+.WebBageEnd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.WebBageEnd .partsAll i{
+    background-color: black;
+    color: white;
+    border: 9px solid #2F2E30;
+    font-size: 20px;
+    padding-top: 10px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.WebBageEnd .partsAll h1{
+    padding-bottom: 0;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.WebBageEnd .partsAll p{
+    color: var(--text2-color);
+    padding-top: 8px;
+}
+/* Last web style end */

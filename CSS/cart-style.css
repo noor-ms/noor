@@ -1,0 +1,76 @@
+section .container{
+    position: relative;
+    margin-bottom: 40%;
+}
+.logo{ 
+    margin:5rem; 
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+    padding-right: 1.2rem;
+}
+table{border-spacing: 4rem;}
+.products{
+    box-shadow: 1px 1px 10px 1px #d7cece;
+}
+img{
+    width: 50px;
+    height: 39px;
+}
+th, td{
+    padding: 8px 15px;
+    width: 230px;
+    text-align: center;
+
+}
+.products input[type=number]{
+    width: 3rem;
+}
+.prod2{
+    margin: 0 66px 80px;
+}
+.prod3 input{
+    margin-left: 66px;
+}
+.prod2 button{
+    padding: 16px 48px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: black;
+}
+.prod3 input[type=text]{
+    padding: 16px 110px 16px 24px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.btn-red{
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.absolutediv{
+    position: absolute;
+    height: 324px;
+    width: 470px;
+    border-radius: 4px;
+    right: 0;
+    bottom: 0;
+}
+.absolutediv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    right: 5rem;
+    top: 39.5rem;
+    border: 1.5px solid black;
+}
+.absolutediv div{
+    display: inline-flex;
+    gap: 290px;
+    border-bottom: 1px solid black;
+}

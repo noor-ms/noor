@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Section .container {
+    padding: 90px 10%;
+    font-family: sans-serif;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #7D8184;
+}
+
+section .left-side {
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 80px;
+    margin-left: 1px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px 0 #F5F5F5;
+}
+
+.part1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.part1 i {
+    background-color: var(--secondary2-color);
+    color: white;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.part1 h1 {
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.left-side p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.left-side hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.part2 {
+    margin-top: 25px;
+}
+
+.part2 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+}
+
+.container .right-side {
+    border-radius: 4px;
+    padding: 35px;
+    margin-top: 80px;
+    margin-right: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 15px 0 #F5F5F5;
+}
+
+.container form input {
+    padding: 9px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    border-radius: 4px;
+}
+
+.container form textarea {
+    padding: 10px 17px;
+    margin-top: 25px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    border-radius: 4px;
+}
+
+Section .right-side button {
+    float: right;
+    padding: 16px 39px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgba(219, 68, 68, 1);
+    margin-top: 20px;
+}

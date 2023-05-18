@@ -1,0 +1,50 @@
+section .container{
+    margin: 80px auto;
+}
+section .container .all{
+    margin-top: 42px;
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+section .container .all p{
+    line-height: 26px;
+}
+section .container .all img{
+    float: right;
+}
+section .container .icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 270px;
+    height: 230px;
+}
+.icon i,h1,p{
+    margin-top: 30px;
+}
+.All-persons{
+    margin-top: 140px;
+}
+.person .prof-img{
+    background-color: var(--secondary-color);
+}
+.person .prof-img img{
+    padding: 33px 38px 0;
+}
+.information-person{
+    float: left;
+}
+.information-person h1,p{
+    margin: 0;
+}
+
+.icon:hover{
+    background-color: var(--secondary2-color);
+}
